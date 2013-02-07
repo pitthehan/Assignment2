@@ -18,20 +18,22 @@
 		555E432A16B84E1E00696EF1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 555E432916B84E1E00696EF1 /* Default-568h@2x.png */; };
 		555E432D16B84E1E00696EF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E432C16B84E1E00696EF1 /* ViewController.m */; };
 		555E433016B84E1E00696EF1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 555E432E16B84E1E00696EF1 /* ViewController.xib */; };
-		555E433C16B852FF00696EF1 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E433616B852FF00696EF1 /* Fruit.m */; };
-		555E433D16B852FF00696EF1 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E433816B852FF00696EF1 /* Apple.m */; };
-		555E433E16B852FF00696EF1 /* GoldDelicious.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E433B16B852FF00696EF1 /* GoldDelicious.m */; };
+		555E433C16B852FF00696EF1 /* Vegetable.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E433616B852FF00696EF1 /* Vegetable.m */; };
+		555E433D16B852FF00696EF1 /* Potato.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E433816B852FF00696EF1 /* Potato.m */; };
+		D48DC59B16C32E4D0077E694 /* iOS Simulator Screen shot.png in Resources */ = {isa = PBXBuildFile; fileRef = D48DC59A16C32E4D0077E694 /* iOS Simulator Screen shot.png */; };
+		D4AB125916C0AF73001A62A2 /* Onion.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AB125816C0AF73001A62A2 /* Onion.m */; };
+		D4AB125C16C0B044001A62A2 /* Pumpkin.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AB125B16C0B044001A62A2 /* Pumpkin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		555E431016B84E1D00696EF1 /* FruitCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		555E431016B84E1D00696EF1 /* VegetableCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VegetableCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		555E431316B84E1D00696EF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		555E431516B84E1D00696EF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		555E431716B84E1D00696EF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		555E431B16B84E1D00696EF1 /* FruitCart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FruitCart-Info.plist"; sourceTree = "<group>"; };
+		555E431B16B84E1D00696EF1 /* VegetableCart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VegetableCart-Info.plist"; sourceTree = "<group>"; };
 		555E431D16B84E1E00696EF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		555E431F16B84E1E00696EF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		555E432116B84E1E00696EF1 /* FruitCart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FruitCart-Prefix.pch"; sourceTree = "<group>"; };
+		555E432116B84E1E00696EF1 /* VegetableCart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VegetableCart-Prefix.pch"; sourceTree = "<group>"; };
 		555E432216B84E1E00696EF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		555E432316B84E1E00696EF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		555E432516B84E1E00696EF1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -40,12 +42,15 @@
 		555E432B16B84E1E00696EF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		555E432C16B84E1E00696EF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		555E432F16B84E1E00696EF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		555E433616B852FF00696EF1 /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
-		555E433716B852FF00696EF1 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
-		555E433816B852FF00696EF1 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
-		555E433916B852FF00696EF1 /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
-		555E433A16B852FF00696EF1 /* GoldDelicious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoldDelicious.h; sourceTree = "<group>"; };
-		555E433B16B852FF00696EF1 /* GoldDelicious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoldDelicious.m; sourceTree = "<group>"; };
+		555E433616B852FF00696EF1 /* Vegetable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vegetable.m; sourceTree = "<group>"; };
+		555E433716B852FF00696EF1 /* Potato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Potato.h; sourceTree = "<group>"; };
+		555E433816B852FF00696EF1 /* Potato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Potato.m; sourceTree = "<group>"; };
+		555E433916B852FF00696EF1 /* Vegetable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vegetable.h; sourceTree = "<group>"; };
+		D48DC59A16C32E4D0077E694 /* iOS Simulator Screen shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iOS Simulator Screen shot.png"; path = "../../../iOS Simulator Screen shot.png"; sourceTree = "<group>"; };
+		D4AB125716C0AF73001A62A2 /* Onion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Onion.h; sourceTree = "<group>"; };
+		D4AB125816C0AF73001A62A2 /* Onion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Onion.m; sourceTree = "<group>"; };
+		D4AB125A16C0B044001A62A2 /* Pumpkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pumpkin.h; sourceTree = "<group>"; };
+		D4AB125B16C0B044001A62A2 /* Pumpkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pumpkin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +70,7 @@
 		555E430716B84E1D00696EF1 = {
 			isa = PBXGroup;
 			children = (
-				555E431916B84E1D00696EF1 /* FruitCart */,
+				555E431916B84E1D00696EF1 /* VegetableCart */,
 				555E431216B84E1D00696EF1 /* Frameworks */,
 				555E431116B84E1D00696EF1 /* Products */,
 			);
@@ -74,7 +79,7 @@
 		555E431116B84E1D00696EF1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				555E431016B84E1D00696EF1 /* FruitCart.app */,
+				555E431016B84E1D00696EF1 /* VegetableCart.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,27 +94,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		555E431916B84E1D00696EF1 /* FruitCart */ = {
+		555E431916B84E1D00696EF1 /* VegetableCart */ = {
 			isa = PBXGroup;
 			children = (
-				555E433F16B8530800696EF1 /* Fruits */,
+				555E433F16B8530800696EF1 /* Vegetable */,
 				555E432216B84E1E00696EF1 /* AppDelegate.h */,
 				555E432316B84E1E00696EF1 /* AppDelegate.m */,
 				555E432B16B84E1E00696EF1 /* ViewController.h */,
 				555E432C16B84E1E00696EF1 /* ViewController.m */,
+				D4AB125716C0AF73001A62A2 /* Onion.h */,
+				D4AB125816C0AF73001A62A2 /* Onion.m */,
+				D4AB125A16C0B044001A62A2 /* Pumpkin.h */,
+				D4AB125B16C0B044001A62A2 /* Pumpkin.m */,
 				555E432E16B84E1E00696EF1 /* ViewController.xib */,
 				555E431A16B84E1D00696EF1 /* Supporting Files */,
 			);
+			name = VegetableCart;
 			path = FruitCart;
 			sourceTree = "<group>";
 		};
 		555E431A16B84E1D00696EF1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				555E431B16B84E1D00696EF1 /* FruitCart-Info.plist */,
+				555E431B16B84E1D00696EF1 /* VegetableCart-Info.plist */,
 				555E431C16B84E1E00696EF1 /* InfoPlist.strings */,
 				555E431F16B84E1E00696EF1 /* main.m */,
-				555E432116B84E1E00696EF1 /* FruitCart-Prefix.pch */,
+				555E432116B84E1E00696EF1 /* VegetableCart-Prefix.pch */,
 				555E432516B84E1E00696EF1 /* Default.png */,
 				555E432716B84E1E00696EF1 /* Default@2x.png */,
 				555E432916B84E1E00696EF1 /* Default-568h@2x.png */,
@@ -117,25 +127,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		555E433F16B8530800696EF1 /* Fruits */ = {
+		555E433F16B8530800696EF1 /* Vegetable */ = {
 			isa = PBXGroup;
 			children = (
-				555E433716B852FF00696EF1 /* Apple.h */,
-				555E433816B852FF00696EF1 /* Apple.m */,
-				555E433916B852FF00696EF1 /* Fruit.h */,
-				555E433616B852FF00696EF1 /* Fruit.m */,
-				555E433A16B852FF00696EF1 /* GoldDelicious.h */,
-				555E433B16B852FF00696EF1 /* GoldDelicious.m */,
+				D48DC59A16C32E4D0077E694 /* iOS Simulator Screen shot.png */,
+				555E433716B852FF00696EF1 /* Potato.h */,
+				555E433816B852FF00696EF1 /* Potato.m */,
+				555E433916B852FF00696EF1 /* Vegetable.h */,
+				555E433616B852FF00696EF1 /* Vegetable.m */,
 			);
-			name = Fruits;
+			name = Vegetable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		555E430F16B84E1D00696EF1 /* FruitCart */ = {
+		555E430F16B84E1D00696EF1 /* VegetableCart */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 555E433316B84E1E00696EF1 /* Build configuration list for PBXNativeTarget "FruitCart" */;
+			buildConfigurationList = 555E433316B84E1E00696EF1 /* Build configuration list for PBXNativeTarget "VegetableCart" */;
 			buildPhases = (
 				555E430C16B84E1D00696EF1 /* Sources */,
 				555E430D16B84E1D00696EF1 /* Frameworks */,
@@ -145,9 +154,9 @@
 			);
 			dependencies = (
 			);
-			name = FruitCart;
+			name = VegetableCart;
 			productName = FruitCart;
-			productReference = 555E431016B84E1D00696EF1 /* FruitCart.app */;
+			productReference = 555E431016B84E1D00696EF1 /* VegetableCart.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -159,7 +168,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = DavidEvans;
 			};
-			buildConfigurationList = 555E430B16B84E1D00696EF1 /* Build configuration list for PBXProject "FruitCart" */;
+			buildConfigurationList = 555E430B16B84E1D00696EF1 /* Build configuration list for PBXProject "VegetableCart" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -171,7 +180,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				555E430F16B84E1D00696EF1 /* FruitCart */,
+				555E430F16B84E1D00696EF1 /* VegetableCart */,
 			);
 		};
 /* End PBXProject section */
@@ -186,6 +195,7 @@
 				555E432816B84E1E00696EF1 /* Default@2x.png in Resources */,
 				555E432A16B84E1E00696EF1 /* Default-568h@2x.png in Resources */,
 				555E433016B84E1E00696EF1 /* ViewController.xib in Resources */,
+				D48DC59B16C32E4D0077E694 /* iOS Simulator Screen shot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,9 +209,10 @@
 				555E432016B84E1E00696EF1 /* main.m in Sources */,
 				555E432416B84E1E00696EF1 /* AppDelegate.m in Sources */,
 				555E432D16B84E1E00696EF1 /* ViewController.m in Sources */,
-				555E433C16B852FF00696EF1 /* Fruit.m in Sources */,
-				555E433D16B852FF00696EF1 /* Apple.m in Sources */,
-				555E433E16B852FF00696EF1 /* GoldDelicious.m in Sources */,
+				555E433C16B852FF00696EF1 /* Vegetable.m in Sources */,
+				555E433D16B852FF00696EF1 /* Potato.m in Sources */,
+				D4AB125916C0AF73001A62A2 /* Onion.m in Sources */,
+				D4AB125C16C0B044001A62A2 /* Pumpkin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +298,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FruitCart/FruitCart-Prefix.pch";
-				INFOPLIST_FILE = "FruitCart/FruitCart-Info.plist";
+				GCC_PREFIX_HEADER = "FruitCart/VegetableCart-Prefix.pch";
+				INFOPLIST_FILE = "FruitCart/VegetableCart-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -298,9 +312,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FruitCart/FruitCart-Prefix.pch";
-				INFOPLIST_FILE = "FruitCart/FruitCart-Info.plist";
+				GCC_PREFIX_HEADER = "FruitCart/VegetableCart-Prefix.pch";
+				INFOPLIST_FILE = "FruitCart/VegetableCart-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -308,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		555E430B16B84E1D00696EF1 /* Build configuration list for PBXProject "FruitCart" */ = {
+		555E430B16B84E1D00696EF1 /* Build configuration list for PBXProject "VegetableCart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				555E433116B84E1E00696EF1 /* Debug */,
@@ -317,13 +334,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		555E433316B84E1E00696EF1 /* Build configuration list for PBXNativeTarget "FruitCart" */ = {
+		555E433316B84E1E00696EF1 /* Build configuration list for PBXNativeTarget "VegetableCart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				555E433416B84E1E00696EF1 /* Debug */,
 				555E433516B84E1E00696EF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
