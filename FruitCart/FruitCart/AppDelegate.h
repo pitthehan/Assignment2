@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  VegetableCart
 //
-//  Created by David Evans on 1/29/13.
+//  Created by David Evans on 1//Users/defaultuser/Desktop/Assignment2/FruitCart/VegetableCart.xcodeproj29/13.
 //  Copyright (c) 2013 DavidEvans. All rights reserved.
 //
 
