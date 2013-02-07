@@ -20,7 +20,7 @@
 		555E433016B84E1E00696EF1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 555E432E16B84E1E00696EF1 /* ViewController.xib */; };
 		555E433C16B852FF00696EF1 /* Vegetable.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E433616B852FF00696EF1 /* Vegetable.m */; };
 		555E433D16B852FF00696EF1 /* Potato.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E433816B852FF00696EF1 /* Potato.m */; };
-		D48DC59B16C32E4D0077E694 /* iOS Simulator Screen shot.png in Resources */ = {isa = PBXBuildFile; fileRef = D48DC59A16C32E4D0077E694 /* iOS Simulator Screen shot.png */; };
+		D48DC59D16C33A9A0077E694 /* iOS Simulator Screen shot.png in Resources */ = {isa = PBXBuildFile; fileRef = D48DC59C16C33A9A0077E694 /* iOS Simulator Screen shot.png */; };
 		D4AB125916C0AF73001A62A2 /* Onion.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AB125816C0AF73001A62A2 /* Onion.m */; };
 		D4AB125C16C0B044001A62A2 /* Pumpkin.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AB125B16C0B044001A62A2 /* Pumpkin.m */; };
 /* End PBXBuildFile section */
@@ -46,7 +46,7 @@
 		555E433716B852FF00696EF1 /* Potato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Potato.h; sourceTree = "<group>"; };
 		555E433816B852FF00696EF1 /* Potato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Potato.m; sourceTree = "<group>"; };
 		555E433916B852FF00696EF1 /* Vegetable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vegetable.h; sourceTree = "<group>"; };
-		D48DC59A16C32E4D0077E694 /* iOS Simulator Screen shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iOS Simulator Screen shot.png"; path = "../../../iOS Simulator Screen shot.png"; sourceTree = "<group>"; };
+		D48DC59C16C33A9A0077E694 /* iOS Simulator Screen shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iOS Simulator Screen shot.png"; path = "../../../iOS Simulator Screen shot.png"; sourceTree = "<group>"; };
 		D4AB125716C0AF73001A62A2 /* Onion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Onion.h; sourceTree = "<group>"; };
 		D4AB125816C0AF73001A62A2 /* Onion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Onion.m; sourceTree = "<group>"; };
 		D4AB125A16C0B044001A62A2 /* Pumpkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pumpkin.h; sourceTree = "<group>"; };
@@ -107,6 +107,7 @@
 				D4AB125A16C0B044001A62A2 /* Pumpkin.h */,
 				D4AB125B16C0B044001A62A2 /* Pumpkin.m */,
 				555E432E16B84E1E00696EF1 /* ViewController.xib */,
+				D48DC59C16C33A9A0077E694 /* iOS Simulator Screen shot.png */,
 				555E431A16B84E1D00696EF1 /* Supporting Files */,
 			);
 			name = VegetableCart;
@@ -130,7 +131,6 @@
 		555E433F16B8530800696EF1 /* Vegetable */ = {
 			isa = PBXGroup;
 			children = (
-				D48DC59A16C32E4D0077E694 /* iOS Simulator Screen shot.png */,
 				555E433716B852FF00696EF1 /* Potato.h */,
 				555E433816B852FF00696EF1 /* Potato.m */,
 				555E433916B852FF00696EF1 /* Vegetable.h */,
@@ -195,7 +195,7 @@
 				555E432816B84E1E00696EF1 /* Default@2x.png in Resources */,
 				555E432A16B84E1E00696EF1 /* Default-568h@2x.png in Resources */,
 				555E433016B84E1E00696EF1 /* ViewController.xib in Resources */,
-				D48DC59B16C32E4D0077E694 /* iOS Simulator Screen shot.png in Resources */,
+				D48DC59D16C33A9A0077E694 /* iOS Simulator Screen shot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
